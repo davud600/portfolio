@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Comfortaa", cursive;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: rgb(0, 115, 255);
+    padding: 1rem 2rem;
+    /* font-size: small; */
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+
+.navbar-title-text {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* ---- HOME MAIN SECTION ---- */
+
+/* --- Main Section Background Image --- */
+.main-section-background-image-container {
+    position: absolute;
+    z-index: -1;
+    right: -100px;
+}
+/* .main-section-background-image {
+
+} */
+
+/* --- Main Section Info --- */
+.main-section-info-container {
+    padding: 8rem 8rem;
+}
+
+.main-section-info-text {
+    display: flex;
+    flex-direction: column;
+}
+.info-text-primary {
+    font-size: 18px;
+}
+.info-text-name {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+.info-text-profession {
+    font-size: 19px;
+}
+.info-text-description {
+    font-size: 16px;
+    margin: 1.25rem 0;
+}
+
+.main-section-info-button {
+    margin-top: 1rem;
+}
+.info-button {
+    color: black;
+}

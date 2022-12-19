@@ -14,11 +14,15 @@ a {
 }
 
 .button {
+    transition: all 150ms;
     background-color: rgb(0, 115, 255);
     padding: 1rem 2rem;
-    /* font-size: small; */
     font-weight: bold;
     border-radius: 6px;
+}
+.button:hover {
+    transition: all 150ms;
+    background-color: rgb(0, 115, 255, 0.75);
 }
 
 .navbar {
@@ -30,6 +34,7 @@ a {
 .navbar-title-text {
     font-size: 30px;
     font-weight: bolder;
+    /* color: rgb(0, 115, 255); */
 }
 
 /* ---- HOME MAIN SECTION ---- */
@@ -46,7 +51,8 @@ a {
 
 /* --- Main Section Info --- */
 .main-section-info-container {
-    padding: 8rem 8rem;
+    padding: 8rem;
+    width: 50%;
 }
 
 .main-section-info-text {
@@ -63,6 +69,8 @@ a {
 }
 .info-text-profession {
     font-size: 19px;
+    font-weight: bold;
+    color: rgb(0, 115, 255);
 }
 .info-text-description {
     font-size: 16px;
@@ -70,8 +78,26 @@ a {
 }
 
 .main-section-info-button {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 .info-button {
     color: black;
+}
+
+@media (max-width: 600px) {
+    .main-section-info-container {
+        padding: 3rem;
+        width: 75%;
+    }
+
+    .info-text-name {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    .main-section-info-container {
+        padding: 5rem;
+        width: 75%;
+    }
 }

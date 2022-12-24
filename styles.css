@@ -25,6 +25,7 @@ a {
     padding: 1rem 2rem;
     font-weight: bold;
     border-radius: 6px;
+    font-family: "Comfortaa", cursive;
 }
 .button:hover {
     transition: all 150ms;
@@ -94,6 +95,10 @@ a {
 .info-button {
     color: black;
 }
+.info-box-icon {
+    font-size: 30px;
+    color: white;
+}
 
 /* ---- PROJECTS SECTION ---- */
 
@@ -136,6 +141,109 @@ a {
     font-size: 20px;
     letter-spacing: 2px;
     color: rgb(0, 115, 255);
+}
+
+/* ---- ABOUT SECTION ---- */
+.about-section {
+    /* background-color: red; */
+    padding-top: 10rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 4.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about-section-container {
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7.5rem;
+}
+
+.about-text {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 18px;
+    padding: 0 5rem;
+}
+
+/* .web-dev-icon {
+    opacity: 0.7;
+} */
+
+/* ---- CONTACT SECTION ---- */
+.contact-section {
+    /* background-color: rgb(0, 115, 255, 0.15); */
+    padding-top: 10rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-info-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 7.5rem 0;
+    gap: 5rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 50%;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --- Form --- */
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 700px;
+}
+
+.input-field,
+textarea {
+    font-family: "Comfortaa", cursive;
+    font-size: 14px;
+    padding: 1.25rem 1rem;
+    border: none;
+    width: 275px;
+}
+
+textarea {
+    margin-top: 0.5rem;
+    width: 95%;
+}
+
+.name-and-email-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    /* width: 200px; */
+}
+
+.submit-button {
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 @media (max-width: 600px) {

@@ -32,10 +32,10 @@ a {
 }
 
 .section-title {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: bolder;
     /* color: rgb(0, 115, 255); */
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
 }
 
 /* ---- HOME MAIN SECTION ---- */
@@ -98,8 +98,8 @@ a {
 /* ---- PROJECTS SECTION ---- */
 
 .projects-section {
-    background-color: rgb(0, 115, 255, 0.15);
-    padding-top: 12rem;
+    /* background-color: rgb(0, 115, 255, 0.15); */
+    padding-top: 10rem;
     padding-left: 8rem;
     padding-right: 8rem;
     padding-bottom: 3rem;
@@ -120,11 +120,16 @@ a {
 }
 
 .project-card {
+    transition: all 200ms;
     height: 400px;
     display: flex;
     flex-direction: column;
     background-color: white;
     box-shadow: 8px 8px rgb(0, 115, 255);
+}
+.project-card:hover {
+    transition: all 200ms;
+    margin-top: -2rem;
 }
 
 .project-title {

@@ -260,6 +260,7 @@ textarea {
     .main-section-info-container {
         transition: all 100ms;
         padding: 5rem;
+        margin-bottom: 1rem;
         width: 75%;
     }
     .navbar-menu-links-list {
@@ -282,6 +283,9 @@ textarea {
         margin-bottom: 2rem;
     }
 
+    .about-section {
+        padding-bottom: 5.75rem;
+    }
     .about-text {
         transition: all 100ms;
         padding: 0 2rem;
@@ -291,6 +295,9 @@ textarea {
         min-width: 200px;
     }
 
+    .contact-section {
+        padding-bottom: 3.5rem;
+    }
     .contact-info-form-container {
         transition: all 100ms;
         gap: 1rem;

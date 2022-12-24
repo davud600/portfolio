@@ -5,7 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="styles.css" />
-        <title>Portfolio</title>
+        <link rel="stylesheet" href="header.css" />
+        <link rel="stylesheet" href="footer.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <script defer src="script.js"></script>
+        <title>Davud (Fullstack Developer) - Portfolio</title>
     </head>
     <body>
         <header>
@@ -22,20 +28,46 @@
                         <span>-</span>
                     </div> -->
                     <ul class="navbar-menu-links-list">
-                        <li><a class="navbar-menu-link" href="#">Home</a></li>
                         <li>
-                            <a class="navbar-menu-link" href="#">Projects</a>
+                            <a
+                                class="navbar-menu-link"
+                                id="home-link"
+                                href="#home"
+                                >Home</a
+                            >
                         </li>
                         <li>
-                            <a class="navbar-menu-link" href="#">Contact</a>
+                            <a
+                                class="navbar-menu-link"
+                                id="projects-link"
+                                href="#projects"
+                                >Projects</a
+                            >
                         </li>
-                        <li><a class="navbar-menu-link" href="#">About</a></li>
+                        <li>
+                            <a
+                                class="navbar-menu-link"
+                                id="contact-link"
+                                href="#contact"
+                                >Contact</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="navbar-menu-link"
+                                id="about-link"
+                                href="#about"
+                                >About</a
+                            >
+                        </li>
                     </ul>
                 </div>
                 <div></div>
             </nav>
         </header>
-        <section class="home-main-section">
+
+        <!-- HOME SECTION -->
+        <section id="home" class="home-main-section">
             <div class="main-section-background-image-container">
                 <img
                     width="900"
@@ -58,5 +90,67 @@
                 </div>
             </div>
         </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="projects-section">
+            <div class="projects-section-container">
+                <div>
+                    <span class="section-title">PROJECTS</span>
+                </div>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <h2 class="project-title">PROJECT TITLE</h2>
+                        <div class="project-card-image">
+                            <img src="" alt="not found" />
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h2 class="project-title">PROJECT TITLE</h2>
+                        <div class="project-card-image">
+                            <img src="" alt="not found" />
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h2 class="project-title">PROJECT TITLE</h2>
+                        <div class="project-card-image">
+                            <img src="" alt="not found" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <!-- ***** Footer Start ***** -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-row">
+                    <div>
+                        <ul class="social">
+                            <li>
+                                <a target="_blank" href="#"
+                                    ><i class="fab fa-tiktok"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#"
+                                    ><i class="fa fa-linkedin"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#"
+                                    ><i class="fa fa-instagram"></i
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-row">
+                    <div>
+                        <p class="copyright">Copyright &copy;</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

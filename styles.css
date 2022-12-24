@@ -103,6 +103,7 @@ a {
 /* ---- PROJECTS SECTION ---- */
 
 .projects-section {
+    transition: all 100ms;
     /* background-color: rgb(0, 115, 255, 0.15); */
     padding-top: 10rem;
     padding-left: 8rem;
@@ -117,6 +118,7 @@ a {
 }
 
 .projects-container {
+    transition: all 100ms;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 2rem;
@@ -159,20 +161,24 @@ a {
 }
 
 .about-content {
+    transition: all 100ms;
     display: flex;
     flex-direction: row;
     margin-top: 7.5rem;
 }
 
 .about-text {
+    transition: all 100ms;
     color: rgba(255, 255, 255, 0.75);
     font-size: 18px;
     padding: 0 5rem;
 }
 
-/* .web-dev-icon {
-    opacity: 0.7;
-} */
+.web-dev-icon {
+    transition: all 100ms;
+    width: 350px;
+    object-fit: cover;
+}
 
 /* ---- CONTACT SECTION ---- */
 .contact-section {
@@ -246,6 +252,42 @@ textarea {
     cursor: pointer;
 }
 
+@media (max-width: 1000px) {
+    .main-section-info-container {
+        transition: all 100ms;
+        padding: 5rem;
+        width: 75%;
+    }
+    .navbar-menu-links-list {
+        transition: all 150ms;
+        gap: 2.5rem;
+        font-size: 15px;
+    }
+
+    .projects-section {
+        transition: all 100ms;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .projects-container {
+        transition: all 100ms;
+        gap: 1rem;
+        grid-template-columns: auto auto;
+    }
+    .project-card {
+        margin-bottom: 2rem;
+    }
+
+    .about-text {
+        transition: all 100ms;
+        padding: 0 2rem;
+    }
+    .web-dev-icon {
+        transition: all 100ms;
+        min-width: 200px;
+    }
+}
+
 @media (max-width: 600px) {
     .main-section-info-container {
         transition: all 100ms;
@@ -257,17 +299,33 @@ textarea {
         transition: all 100ms;
         font-size: 50px;
     }
-}
 
-@media (max-width: 900px) {
-    .main-section-info-container {
+    .projects-section {
         transition: all 100ms;
-        padding: 5rem;
-        width: 75%;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
-    .navbar-menu-links-list {
-        transition: all 150ms;
-        gap: 2.5rem;
-        font-size: 15px;
+    .projects-container {
+        transition: all 100ms;
+        gap: 1rem;
+        grid-template-columns: auto;
+    }
+    .project-card {
+        margin-bottom: 2rem;
+    }
+
+    .about-content {
+        transition: all 100ms;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-text {
+        transition: all 100ms;
+        padding: 0 1rem;
+    }
+    .web-dev-icon {
+        transition: all 100ms;
+        width: 100px;
+        margin-bottom: 3rem;
     }
 }

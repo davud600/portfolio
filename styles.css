@@ -5,8 +5,7 @@ html {
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: rgb(94, 128, 238);
     font-family: "Comfortaa", cursive;
     /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif; */
@@ -19,92 +18,53 @@ a {
     text-decoration: none;
 }
 
+.fade-in {
+    animation: fadeIn 500ms;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .button {
-    transition: all 150ms;
-    background-color: rgb(0, 115, 255);
-    padding: 1rem 2rem;
+    transition: all 100ms;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0.75rem 1.5rem;
     font-weight: bold;
     border-radius: 6px;
     font-family: "Comfortaa", cursive;
+    border: none;
 }
 .button:hover {
-    transition: all 150ms;
-    background-color: rgb(0, 115, 255, 0.75);
-}
-
-.section-title {
-    font-size: 30px;
-    font-weight: bolder;
-    /* color: rgb(0, 115, 255); */
-    /* letter-spacing: 3px; */
-}
-
-/* ---- HOME MAIN SECTION ---- */
-
-.home-main-section {
-    margin-top: -7.5rem;
-    padding-top: 7.5rem;
-    padding-bottom: 5.5rem;
-}
-
-/* --- Main Section Background Image --- */
-.main-section-background-image-container {
-    position: absolute;
-    z-index: -1;
-    right: -100px;
-}
-/* .main-section-background-image {
-
-} */
-
-/* --- Main Section Info --- */
-.main-section-info-container {
     transition: all 100ms;
-    padding: 8rem;
-    width: 50%;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
-.main-section-info-text {
-    display: flex;
-    flex-direction: column;
+/* --- ABOUT --- */
+.about-text {
+    text-align: center;
+    columns: black;
+    font-size: 14px;
 }
-.info-text-primary {
-    font-size: 18px;
-}
-.info-text-name {
-    transition: all 100ms;
-    font-size: 60px;
-    font-weight: bold;
-    margin: 2rem 0;
-}
-.info-text-profession {
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(0, 115, 255);
-    letter-spacing: 3px;
-}
-.info-text-description {
-    font-size: 16px;
-    margin: 1.75rem 0;
-    color: rgba(255, 255, 255, 0.75);
+.about-text-paragraph {
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+    line-height: 28px;
 }
 
-.main-section-info-button {
-    margin-top: 1.5rem;
-}
-.info-button {
+/* .info-button {
     color: black;
-}
-.info-box-icon {
-    font-size: 30px;
-    color: white;
-}
+} */
 
 /* ---- PROJECTS SECTION ---- */
 
 .projects-section {
     transition: all 100ms;
-    /* background-color: rgb(0, 115, 255, 0.15); */
     padding-top: 10rem;
     padding-left: 8rem;
     padding-right: 8rem;
@@ -131,27 +91,58 @@ a {
     height: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: white;
-    box-shadow: 8px 8px rgb(0, 115, 255);
+    /* background-color: rgb(26, 26, 26); */
+    box-shadow: 12px 8px rgba(0, 115, 255, 0.25);
+    /* box-shadow: 12px 8px rgba(255, 255, 255, 0.25); */
+    padding: 1rem;
 }
 .project-card:hover {
     transition: all 200ms;
-    margin-top: -2rem;
+    margin-top: -1rem;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: column;
 }
 
 .project-title {
     font-size: 20px;
     letter-spacing: 2px;
+    margin-bottom: 1rem;
     color: rgb(0, 115, 255);
+}
+
+.project-description {
+    color: black;
+    /* color: white; */
+}
+
+/* -- SKILLS -- */
+.skills-container {
+    /* margin-top: -3rem; */
+    /* position: absolute; */
+    /* z-index: 1; */
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto auto; */
+}
+
+.skill-card {
+    background-color: rgba(255, 255, 255);
+}
+
+.skill-logo {
+    width: 100px;
 }
 
 /* ---- ABOUT SECTION ---- */
 .about-section {
-    /* background-color: red; */
     padding-top: 10rem;
     padding-left: 8rem;
     padding-right: 8rem;
-    padding-bottom: 4.5rem;
+    padding-bottom: 7.25rem;
     display: flex;
     justify-content: center;
 }
@@ -167,26 +158,20 @@ a {
     margin-top: 7.5rem;
 }
 
-.about-text {
-    transition: all 100ms;
-    color: rgba(255, 255, 255, 0.75);
-    font-size: 18px;
-    padding: 0 5rem;
-}
-
 .web-dev-icon {
     transition: all 100ms;
     width: 350px;
     object-fit: cover;
 }
 
+/* ---- BLOG SECTION ---- */
+.blog-section {
+    text-align: center;
+}
+
 /* ---- CONTACT SECTION ---- */
 .contact-section {
-    /* background-color: rgb(0, 115, 255, 0.15); */
-    padding-top: 10rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
-    padding-bottom: 3rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
 }
@@ -202,7 +187,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 7.5rem 0;
+    margin: 2.5rem 0;
     gap: 3rem;
 }
 
@@ -210,13 +195,18 @@ a {
     display: flex;
     flex-direction: column;
     text-align: start;
-    /* width: 50%; */
+    font-size: 14px;
 }
 
 .info-box {
     transition: all 100ms;
-    display: flex;
-    justify-content: space-between;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.info-box-icon {
+    font-size: 30px;
+    color: black;
 }
 
 /* --- Form --- */
@@ -232,22 +222,22 @@ form {
 textarea {
     transition: all 100ms;
     font-family: "Comfortaa", cursive;
-    font-size: 14px;
-    padding: 1.25rem 1rem;
+    font-size: 12px;
+    padding: 1rem 0.75rem;
     border: none;
-    width: 275px;
-    background-color: rgb(27, 27, 27);
+    width: 250px;
+    background-color: rgb(25, 25, 25);
     color: white;
 }
 .input-field:focus,
 textarea:focus {
-    transition: all 200ms;
+    transition: all 100ms;
     background-color: rgb(0, 0, 0);
 }
 
 textarea {
     margin-top: 0.5rem;
-    width: 95%;
+    width: 96%;
 }
 
 .name-and-email-container {
@@ -258,8 +248,7 @@ textarea {
 }
 
 .submit-button {
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 14px;
     cursor: pointer;
 }
 

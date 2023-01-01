@@ -8,7 +8,7 @@
     margin-top: 1rem;
 }
 .navbar-title-text {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .navbar-menu-links-list {
@@ -20,7 +20,7 @@
 }
 
 .navbar-menu-link {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: lighter;
     letter-spacing: 1px;
     color: black;
@@ -30,11 +30,11 @@
 
 .navbar-menu-link:hover {
     transition: all 100ms;
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.95);
 }
 
 .link-active {
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.95);
 }
 
 .search-icon {

@@ -27,6 +27,7 @@ async function updateProjectsInfo() {
     projects.forEach(project => {
         const projectElement = document.createElement("div");
         projectElement.classList.add("project-card");
+        projectElement.classList.add(`project-${project.color}`);
         projectElement.innerHTML = `
             <div class="project-header">
                 <h2 class="project-title">${project.name}</h2>

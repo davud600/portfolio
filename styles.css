@@ -84,6 +84,55 @@ a {
     padding: 0.5rem;
 }
 
+/* ---- PROJECTS SECTION ---- */
+
+.projects-section {
+    margin-top: 1rem;
+}
+
+.projects-section-container {
+    text-align: center;
+    padding: 0 3rem;
+}
+
+.projects-container {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: auto auto auto;
+}
+
+.section-title {
+    margin-bottom: 4rem;
+}
+
+.project-card {
+    transition: all 200ms;
+    height: 25rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.project-red {
+    background-color: rgb(238, 94, 128);
+}
+.project-red:hover {
+    background-color: rgb(119, 47, 64);
+}
+
+.project-orange {
+    background-color: rgb(238, 128, 94);
+}
+.project-orange:hover {
+    background-color: rgb(119, 64, 47);
+}
+
+.project-green {
+    background-color: rgb(94, 238, 128);
+}
+.project-green:hover {
+    background-color: rgb(47, 128, 64);
+}
+
 /* ---- BLOG SECTION ---- */
 .blog-section {
     text-align: center;

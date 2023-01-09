@@ -3,17 +3,20 @@
         {
             "name": "hihihi1",
             "description": "omg this is the project where the code does the thing omg",
-            "cover": ""
+            "cover": "",
+            "color": "red"
         },
         {
             "name": "hihihi2",
             "description": "omg this is the project where the code does the thing omg",
-            "cover": ""
+            "cover": "",
+            "color": "orange"
         },
         {
             "name": "hihihi3",
             "description": "omg this is the project where the code does the thing omg",
-            "cover": ""
+            "cover": "",
+            "color": "green"
         }
     ]
 }

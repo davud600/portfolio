@@ -1,5 +1,7 @@
-updateProjectsInfo();
+updateProjectsInfo(updateStyles);
 updateSkills();
+
+window.addEventListener("resize", () => updateStyles());
 
 const navbarLinks = document.querySelectorAll(".navbar-menu-link");
 
@@ -19,7 +21,7 @@ navbarLinks.forEach(navbarLink => {
     });
 });
 
-async function updateProjectsInfo() {
+async function updateProjectsInfo(callback) {
     const res = await fetch("./projects.json");
     const { data: projects } = await res.json();
 
@@ -29,6 +31,7 @@ async function updateProjectsInfo() {
         projectElement.classList.add("project-card");
         projectElement.classList.add(`project-${project.color}`);
         projectElement.innerHTML = `
+            <div id="${project.name}" class="project-card-overlay"></div>
             <div class="project-header">
                 <h2 class="project-title">${project.name}</h2>
                 <div class="project-card-image">
@@ -40,6 +43,8 @@ async function updateProjectsInfo() {
 
         projectsContainer.appendChild(projectElement);
     });
+
+    callback();
 }
 
 async function updateSkills() {
@@ -59,5 +64,15 @@ async function updateSkills() {
         `;
 
         skillsContainer.appendChild(skillElement);
+    });
+}
+
+function updateStyles() {
+    const projectElement = document.querySelector(".project-card");
+    const projectOverlayElements = document.querySelectorAll(
+        ".project-card-overlay"
+    );
+    projectOverlayElements.forEach(projectOverlayElement => {
+        projectOverlayElement.style.width = `${projectElement.clientWidth}px`;
     });
 }

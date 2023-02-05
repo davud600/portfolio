@@ -3,7 +3,7 @@
         {
             "name": "Landing page",
             "description": "omg this is the project where the code does the thing omg",
-            "cover": "",
+            "cover": "./images/projects/sui-landing-page/cover.jpg",
             "color": "red"
         },
         {

@@ -41,6 +41,10 @@ async function updateProjectsInfo(callback) {
             <span class="project-description">${project.description}</span>
         `;
 
+        projectElement.addEventListener("click", () => {
+            window.open("https://www.suitagorqi.com/", "_blank");
+        });
+
         projectsContainer.appendChild(projectElement);
     });
 

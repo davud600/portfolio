@@ -61,10 +61,10 @@ a {
 /* ---- SKILLS ---- */
 .skills-container {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    gap: 1rem;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 0rem;
     padding: 0 2rem;
-    margin: 1rem 0;
+    margin: 2rem 0 5rem 0;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -72,14 +72,24 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: auto;
 }
 
-/* .skill-card {
-    background-color: black;
-    box-shadow: 6px 6px rgba(0, 0, 0, 0.25);
-    width: fit-content;
-    padding: 0.5rem;
-} */
+.node-icon {
+    width: 110px;
+}
+.react-icon {
+    width: 75px;
+}
+.laravel-icon {
+    width: 70px;
+}
+.db-icon {
+    width: 50px;
+}
+.php-icon {
+    width: 90px;
+}
 
 .skill-logo {
     width: 75px;

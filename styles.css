@@ -161,6 +161,10 @@ a {
     background-color: rgb(94, 238, 128);
 }
 
+.project-yellow {
+    background-color: rgb(238, 238, 128);
+}
+
 @media (max-width: 1200px) {
     .projects-container {
         gap: 3rem;

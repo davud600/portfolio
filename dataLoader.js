@@ -42,7 +42,7 @@ async function updateProjectsInfo(callback) {
         `;
 
         projectElement.addEventListener("click", () => {
-            window.open("https://www.suitagorqi.com/", "_blank");
+            window.open(`${project.link}`, "_blank");
         });
 
         projectsContainer.appendChild(projectElement);

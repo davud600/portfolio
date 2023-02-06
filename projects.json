@@ -2,21 +2,31 @@
     "data": [
         {
             "name": "Landing page",
-            "description": "omg this is the project where the code does the thing omg",
+            "description": "",
             "cover": "./images/projects/sui-landing-page/cover.jpg",
-            "color": "red"
+            "color": "red",
+            "link": "https://www.suitagorqi.com/"
         },
         {
-            "name": "hihihi2",
-            "description": "omg this is the project where the code does the thing omg",
+            "name": "Landing page with backend",
+            "description": "",
             "cover": "",
-            "color": "orange"
+            "color": "orange",
+            "link": "https://programmers-uni-site-client.vercel.app/"
         },
         {
-            "name": "hihihi3",
-            "description": "omg this is the project where the code does the thing omg",
+            "name": "Twitter bot",
+            "description": "",
             "cover": "",
-            "color": "green"
+            "color": "green",
+            "link": "https://twitter.com/GentijStream"
+        },
+        {
+            "name": "Discord bot",
+            "description": "",
+            "cover": "",
+            "color": "yellow",
+            "link": "https://github.com/davud600/programmers-uni-site-discord-server"
         }
     ]
 }

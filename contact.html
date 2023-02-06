@@ -10,7 +10,8 @@
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-        <script defer src="script.js"></script>
+        <script async src="dataLoader.js"></script>
+        <script defer src="navbarHandler.js"></script>
         <title>Davud (Fullstack Developer) - Portfolio</title>
     </head>
     <body>
@@ -20,6 +21,9 @@
                     <span class="navbar-title-text">d</span>
                 </div>
                 <div class="navbar-menu-container">
+                    <div id="menu-button" class="menu-button">
+                        <span>=</span>
+                    </div>
                     <ul class="navbar-menu-links-list">
                         <li>
                             <a
@@ -132,6 +136,11 @@
         </div>
         <footer class="fade-in">
             <ul class="social">
+                <li>
+                    <a target="_blank" href="https://github.com/davud600"
+                        ><i class="fab fa-github"></i
+                    ></a>
+                </li>
                 <li>
                     <a
                         target="_blank"

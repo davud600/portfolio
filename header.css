@@ -11,12 +11,59 @@
     font-size: 18px;
 }
 
+.menu-button {
+    display: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-size: 65px;
+    width: 35px;
+    height: 35px;
+    transition: all 100ms;
+}
+
+.menu-button span {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.menu-button:hover {
+    color: white;
+    transition: all 100ms;
+}
+
+.navbar-menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
 .navbar-menu-links-list {
     transition: all 100ms;
     display: flex;
+    flex-direction: row;
     gap: 1.25rem;
     text-decoration: none;
     list-style: none;
+}
+
+@media (max-width: 700px) {
+    .menu-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-menu-links-list {
+        display: none;
+        flex-direction: column;
+        text-align: end;
+        margin: 3rem 0 0 0;
+    }
 }
 
 .navbar-menu-link {

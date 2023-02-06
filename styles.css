@@ -18,6 +18,10 @@ a {
     text-decoration: none;
 }
 
+.hidden {
+    display: none;
+}
+
 .fade-in {
     animation: fadeIn 555ms;
 }

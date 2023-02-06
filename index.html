@@ -11,15 +11,19 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
         <script async src="dataLoader.js"></script>
+        <script defer src="navbarHandler.js"></script>
         <title>Davud (Fullstack Developer) - Portfolio</title>
     </head>
     <body>
         <header class="fade-in">
             <nav class="navbar">
                 <div class="navbar-title">
-                    <label class="navbar-title-text">d</label>
+                    <span class="navbar-title-text">d</span>
                 </div>
                 <div class="navbar-menu-container">
+                    <div id="menu-button" class="menu-button">
+                        <span>=</span>
+                    </div>
                     <ul class="navbar-menu-links-list">
                         <li>
                             <a
@@ -60,12 +64,12 @@
 
         <main>
             <!-- SKILLS SECTION -->
-            <section id="skills" class="skills-section">
+            <section id="skills" class="skills-section fade-in">
                 <div class="skills-section-container">
                     <div class="section-title">
                         <span>Skills</span>
                     </div>
-                    <div class="skills-container fade-in">
+                    <div class="skills-container">
                         <div class="skill-card">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"

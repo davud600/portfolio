@@ -3,7 +3,7 @@
         {
             "name": "Landing page",
             "description": "Basic Landing Page to showcase your business. Includes multiple pages, working contact form, mobile friendly etc...",
-            "cover": "./images/projects/sui-landing-page",
+            "cover": "",
             "color": "red",
             "link": "https://www.suitagorqi.com/"
         },
@@ -27,6 +27,13 @@
             "cover": "",
             "color": "yellow",
             "link": "https://github.com/davud600/programmers-uni-site-discord-server"
+        },
+        {
+            "name": "Multiplayer Song Trivia (coming soon...)",
+            "description": "Multiplayer game you can play with friends where you guess artists/songs from each other's playlists.",
+            "cover": "",
+            "color": "yellow",
+            "link": ""
         }
     ]
 }

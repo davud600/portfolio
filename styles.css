@@ -135,6 +135,10 @@ a {
     margin: 0.25rem 0.5rem;
 }
 
+.project-title {
+    margin: 0.75rem;
+}
+
 .project-card,
 .project-card-overlay {
     transition: all 200ms;

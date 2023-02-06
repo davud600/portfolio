@@ -31,14 +31,15 @@ async function updateProjectsInfo(callback) {
         projectElement.classList.add("project-card");
         projectElement.classList.add(`project-${project.color}`);
         projectElement.innerHTML = `
-            <div id="${project.name}" class="project-card-overlay"></div>
+            <div id="${project.name}" class="project-card-overlay">
+                <span class="project-description">${project.description}</span>
+            </div>
             <div class="project-header">
                 <h2 class="project-title">${project.name}</h2>
-                <div class="project-card-image">
-                    <img src="${project.cover}" alt="not found" />
+                <div class="project-card-image-container">
+                    <img class="project-card-image" src="${project.cover}" alt="no image" />
                 </div>
             </div>
-            <span class="project-description">${project.description}</span>
         `;
 
         projectElement.addEventListener("click", () => {

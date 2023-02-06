@@ -2,28 +2,28 @@
     "data": [
         {
             "name": "Landing page",
-            "description": "",
-            "cover": "./images/projects/sui-landing-page/cover.jpg",
+            "description": "Basic Landing Page to showcase your business. Includes multiple pages, working contact form, mobile friendly etc...",
+            "cover": "./images/projects/sui-landing-page",
             "color": "red",
             "link": "https://www.suitagorqi.com/"
         },
         {
-            "name": "Landing page with backend",
-            "description": "",
+            "name": "Page with payment integration",
+            "description": "Another Landing Page for a business but this one also has payment integration implemented with a backend server (Node js) and a MySQL database.",
             "cover": "",
             "color": "orange",
             "link": "https://programmers-uni-site-client.vercel.app/"
         },
         {
             "name": "Twitter bot",
-            "description": "",
+            "description": "Twitter bot that uses Twitch api to listen every 10 minutes if a ceertain streamer has started streaming, if so it uses Twitter's api to send a tweet.",
             "cover": "",
             "color": "green",
             "link": "https://twitter.com/GentijStream"
         },
         {
             "name": "Discord bot",
-            "description": "",
+            "description": "Discord bot that uses Discord's api to update the roles of members of a discord server depending on their payment status saved to a database",
             "cover": "",
             "color": "yellow",
             "link": "https://github.com/davud600/programmers-uni-site-discord-server"

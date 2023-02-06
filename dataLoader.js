@@ -1,5 +1,4 @@
 updateProjectsInfo(updateStyles);
-updateSkills();
 
 window.addEventListener("resize", () => updateStyles());
 
@@ -35,7 +34,7 @@ async function updateProjectsInfo(callback) {
                 <span class="project-description">${project.description}</span>
             </div>
             <div class="project-header">
-                <h2 class="project-title">${project.name}</h2>
+                <h2 class="project-title">${project.name} -></h2>
                 <div class="project-card-image-container">
                     <img class="project-card-image" src="${project.cover}" alt="no image" />
                 </div>
@@ -50,26 +49,6 @@ async function updateProjectsInfo(callback) {
     });
 
     callback();
-}
-
-async function updateSkills() {
-    const res = await fetch("./skills.json");
-    const { data: skills } = await res.json();
-
-    const skillsContainer = document.querySelector("#skills-container");
-    skills.forEach(skill => {
-        const skillElement = document.createElement("div");
-        skillElement.classList.add("skill-card");
-        skillElement.innerHTML = `
-            <img
-                class="skill-logo"
-                src="${skill.image}"
-                alt="not found"
-            />
-        `;
-
-        skillsContainer.appendChild(skillElement);
-    });
 }
 
 function updateStyles() {

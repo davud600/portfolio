@@ -6,5 +6,8 @@ menuButtonElem.addEventListener("click", () => {
     );
 
     navbarMenuListElem.style.display =
-        navbarMenuListElem.style.display === "none" ? "flex" : "none";
+        navbarMenuListElem.style.display === "none" ||
+        navbarMenuListElem.style.display === ""
+            ? "flex"
+            : "none";
 });

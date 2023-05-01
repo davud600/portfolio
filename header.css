@@ -70,7 +70,7 @@
     font-size: 18px;
     font-weight: lighter;
     letter-spacing: 1px;
-    color: black;
+    /* color: black; */
     transition: all 100ms;
     padding: 0.75rem 0.5rem;
 }

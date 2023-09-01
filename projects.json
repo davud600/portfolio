@@ -1,18 +1,11 @@
 {
     "data": [
         {
-            "name": "Landing page",
-            "description": "Basic Landing Page to showcase a business. Includes multiple pages, working contact form, mobile friendly etc...",
+            "name": "News Media App",
+            "description": "Web & Mobile App for browsing news, User Authentication and authorisation using jwt (json webtoken), built with react-native, node & express, and mongodb.",
             "cover": "",
             "color": "red",
-            "link": "https://www.suitagorqi.com/"
-        },
-        {
-            "name": "Page with payment integration",
-            "description": "Another Landing Page for a business but this one also has payment integration implemented with a backend server (Node js) and a MySQL database.",
-            "cover": "",
-            "color": "orange",
-            "link": "https://programmers-uni-site-client.vercel.app/"
+            "link": "https://www.scrollflip.com/"
         },
         {
             "name": "Twitter bot",
@@ -27,6 +20,13 @@
             "cover": "",
             "color": "yellow",
             "link": "https://github.com/davud600/programmers-uni-site-discord-server"
+        },
+        {
+            "name": "Page with payment integration",
+            "description": "Another Landing Page for a business which payment integration implemented with a backend server (Node js) and a MySQL database.",
+            "cover": "",
+            "color": "orange",
+            "link": "https://programmers-uni-site-client.vercel.app/"
         },
         {
             "name": "Multiplayer Song Trivia (coming soon...)",

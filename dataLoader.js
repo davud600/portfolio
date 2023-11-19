@@ -35,11 +35,19 @@ async function updateProjectsInfo(callback) {
             </div>
             <div class="project-header">
                 <h2 class="project-title">${project.name} -></h2>
-                <div class="project-card-image-container">
-                    <img class="project-card-image" src="${project.cover}" alt="no image" />
-                </div>
             </div>
         `;
+        // projectElement.innerHTML = `
+        //     <div id="${project.name}" class="project-card-overlay">
+        //         <span class="project-description">${project.description}</span>
+        //     </div>
+        //     <div class="project-header">
+        //         <h2 class="project-title">${project.name} -></h2>
+        //         <div class="project-card-image-container">
+        //             <img class="project-card-image" src="${project.cover}" alt="no image" />
+        //         </div>
+        //     </div>
+        // `;
 
         projectElement.addEventListener("click", () => {
             window.open(`${project.link}`, "_blank");

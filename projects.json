@@ -1,32 +1,25 @@
 {
     "data": [
         {
-            "name": "News Media App",
-            "description": "Web & Mobile App for browsing news, User Authentication and authorisation using jwt (json webtoken), built with react-native, node & express, and mongodb.",
+            "name": "Hexagon Chess (coming soon...)",
+            "description": "Chess... but with hexagons. Built with Nextjs, TRPC, prisma etc.",
             "cover": "",
             "color": "red",
-            "link": "https://www.scrollflip.com/"
+            "link": "https://github.com/davud600/hexagon-chess"
         },
         {
-            "name": "Twitter bot",
-            "description": "Twitter bot that uses Twitch api to listen every 10 minutes if a ceertain streamer has started streaming, if so it uses Twitter's api to send a tweet.",
+            "name": "Agency Dashboard",
+            "description": "Travel Agency Dashboard for managin orders and emlpoyees. Next js, TRPC, prisma, deployed to vercel and databse hosted on PlanetScale.",
             "cover": "",
             "color": "green",
-            "link": "https://twitter.com/GentijStream"
+            "link": "https://github.com/davud600/agency-dashboard"
         },
         {
-            "name": "Discord bot",
-            "description": "Discord bot that uses Discord's api to update the roles of members of a discord server depending on their payment status saved to a database",
+            "name": "Node Package for managing Shopify Orders",
+            "description": "Import Orders from JSON to Shopify, retrieve or delete orders...",
             "cover": "",
             "color": "yellow",
-            "link": "https://github.com/davud600/programmers-uni-site-discord-server"
-        },
-        {
-            "name": "Page with payment integration",
-            "description": "Another Landing Page for a business which payment integration implemented with a backend server (Node js) and a MySQL database.",
-            "cover": "",
-            "color": "orange",
-            "link": "https://programmers-uni-site-client.vercel.app/"
+            "link": "https://www.npmjs.com/package/shopify-order-manager"
         },
         {
             "name": "Multiplayer Song Trivia (coming soon...)",

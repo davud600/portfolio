@@ -18,7 +18,7 @@
             "name": "Node Package for managing Shopify Orders",
             "description": "Import Orders from JSON to Shopify, retrieve or delete orders...",
             "cover": "",
-            "color": "yellow",
+            "color": "blue",
             "link": "https://www.npmjs.com/package/shopify-order-manager"
         },
         {

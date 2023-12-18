@@ -9,7 +9,7 @@
         },
         {
             "name": "Agency Dashboard",
-            "description": "Travel Agency Dashboard for managin orders and emlpoyees. Next js, TRPC, prisma, deployed to vercel and databse hosted on PlanetScale.",
+            "description": "Travel Agency Dashboard for managing orders and emlpoyees. Next js, TRPC, prisma, deployed to vercel and databse hosted on PlanetScale.",
             "cover": "",
             "color": "green",
             "link": "https://github.com/davud600/agency-dashboard"
@@ -20,6 +20,13 @@
             "cover": "",
             "color": "blue",
             "link": "https://www.npmjs.com/package/shopify-order-manager"
+        },
+        {
+            "name": "Twitter bot",
+            "description": "Twitter bot made with node js using the Twitter Api (Not active since Twitter's new rules removing free access to their api).",
+            "cover": "",
+            "color": "orange",
+            "link": "https://twitter.com/GentijStream"
         },
         {
             "name": "Multiplayer Song Trivia (coming soon...)",

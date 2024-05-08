@@ -1,39 +1,32 @@
 {
-    "data": [
-        {
-            "name": "Hexagon Chess (coming soon...)",
-            "description": "Chess... but with hexagons. Built with Nextjs, TRPC, prisma etc.",
-            "cover": "",
-            "color": "red",
-            "link": "https://github.com/davud600/hexagon-chess"
-        },
-        {
-            "name": "Agency Dashboard",
-            "description": "Travel Agency Dashboard for managing orders and emlpoyees. Next js, TRPC, prisma, deployed to vercel and databse hosted on PlanetScale.",
-            "cover": "",
-            "color": "green",
-            "link": "https://github.com/davud600/agency-dashboard"
-        },
-        {
-            "name": "Node Package for managing Shopify Orders",
-            "description": "Import Orders from JSON to Shopify, retrieve or delete orders...",
-            "cover": "",
-            "color": "blue",
-            "link": "https://www.npmjs.com/package/shopify-order-manager"
-        },
-        {
-            "name": "Twitter bot",
-            "description": "Twitter bot made with node js using the Twitter Api (Not active since Twitter's new rules removing free access to their api).",
-            "cover": "",
-            "color": "orange",
-            "link": "https://twitter.com/GentijStream"
-        },
-        {
-            "name": "Multiplayer Song Trivia (coming soon...)",
-            "description": "Multiplayer game you can play with friends where you guess artists/songs from each other's playlists.",
-            "cover": "",
-            "color": "yellow",
-            "link": ""
-        }
-    ]
+  "data": [
+    {
+      "name": "Hexagon Chess (in progress...)",
+      "description": "Chess... but with hexagons. Built with Nextjs, TRPC, prisma etc.",
+      "cover": "",
+      "color": "red",
+      "link": "https://github.com/davud600/hexagon-chess"
+    },
+    {
+      "name": "Agency Dashboard",
+      "description": "Travel Agency Dashboard for managing orders and emlpoyees. Next js, TRPC, prisma, deployed to vercel and databse hosted on PlanetScale.",
+      "cover": "",
+      "color": "green",
+      "link": "https://github.com/davud600/agency-dashboard"
+    },
+    {
+      "name": "Node Package for managing Shopify Orders",
+      "description": "Import Orders from JSON to Shopify, retrieve or delete orders...",
+      "cover": "",
+      "color": "blue",
+      "link": "https://www.npmjs.com/package/shopify-order-manager"
+    },
+    {
+      "name": "Rocket TVC Simulation (in progress...)",
+      "description": "PID Controller for Rocket TVC (Thrust Vector Control) simulation 🚀",
+      "cover": "",
+      "color": "orange",
+      "link": "https://github.com/davud600/rocket-thrust-vector-control"
+    }
+  ]
 }

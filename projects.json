@@ -22,7 +22,7 @@
       "link": "https://www.npmjs.com/package/shopify-order-manager"
     },
     {
-      "name": "Rocket TVC Simulation (in progress...)",
+      "name": "Rocket TVC Simulation",
       "description": "PID Controller for Rocket TVC (Thrust Vector Control) simulation 🚀",
       "cover": "",
       "color": "orange",
